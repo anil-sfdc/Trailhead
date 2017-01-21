@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HRM_Bench_Poll</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HRM_Bench_Poll</value>
+    </caseValues>
+    <fields>
+        <label><!-- Employe Id --></label>
+        <name>Employe_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employe Name --></label>
+        <name>Employe_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grade --></label>
+        <name>Grade__c</name>
+        <picklistValues>
+            <masterLabel>IE,IF,IG,IH</masterLabel>
+            <translation><!-- IE,IF,IG,IH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manager Name --></label>
+        <name>Manager_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

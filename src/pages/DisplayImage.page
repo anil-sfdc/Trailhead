@@ -1,0 +1,12 @@
+<apex:page sidebar="false" showHeader="false"> 
+  <!-- Begin Default Content REMOVE THIS -->
+
+  This is your new Page
+  
+  <apex:form >
+            <apex:image url="https://developer.salesforce.com/files/salesforce-developer-network-logo.png"/>
+
+      </apex:form>
+  
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

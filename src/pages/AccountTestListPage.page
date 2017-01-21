@@ -1,0 +1,10 @@
+<apex:page controller="apexTest" >
+    <apex:pageBlock title=" My account list test page"> 
+    
+    	<apex:pageBlockTable value="{!listAccount}" var="la">
+          <apex:column value="{!la.Name}"/>
+              
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    
+</apex:page>

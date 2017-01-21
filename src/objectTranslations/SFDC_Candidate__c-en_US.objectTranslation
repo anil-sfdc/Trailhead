@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Background Check --></label>
+        <name>Background_Check__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Candidate_Compensation --></label>
+        <name>Candidate_Compensation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact_Date --></label>
+        <name>Candidate_Contact_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate Status --></label>
+        <name>Candidate_Status__c</name>
+        <picklistValues>
+            <masterLabel>-None-</masterLabel>
+            <translation><!-- -None- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Back Burner</masterLabel>
+            <translation><!-- Back Burner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candidate not interested - Compensation</masterLabel>
+            <translation><!-- Candidate not interested - Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candidate not interested - Location</masterLabel>
+            <translation><!-- Candidate not interested - Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candidate not interested - Took another job</masterLabel>
+            <translation><!-- Candidate not interested - Took another job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consider for future role</masterLabel>
+            <translation><!-- Consider for future role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Resigned</masterLabel>
+            <translation><!-- Employee Resigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation - Hiring Manager</masterLabel>
+            <translation><!-- Evaluation - Hiring Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Round Interview/Presentation</masterLabel>
+            <translation><!-- Final Round Interview/Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hired- Consultant</masterLabel>
+            <translation><!-- Hired- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hired- Employee</masterLabel>
+            <translation><!-- Hired- Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview - Request</masterLabel>
+            <translation><!-- Interview - Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview - Scheduled</masterLabel>
+            <translation><!-- Interview - Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost Interest</masterLabel>
+            <translation><!-- Lost Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No position available</masterLabel>
+            <translation><!-- No position available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer - Accepted</masterLabel>
+            <translation><!-- Offer - Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer - Declined</masterLabel>
+            <translation><!-- Offer - Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer - Request</masterLabel>
+            <translation><!-- Offer - Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer - Sent</masterLabel>
+            <translation><!-- Offer - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer - negotiation</masterLabel>
+            <translation><!-- Offer - negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Declined - Commute</masterLabel>
+            <translation><!-- Offer Declined - Commute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Declined - Comp</masterLabel>
+            <translation><!-- Offer Declined - Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Declined - Counter Offer</masterLabel>
+            <translation><!-- Offer Declined - Counter Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Declined - MISC</masterLabel>
+            <translation><!-- Offer Declined - MISC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Declined - Other opp</masterLabel>
+            <translation><!-- Offer Declined - Other opp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Screen - On the fence</masterLabel>
+            <translation><!-- Phone Screen - On the fence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Screen - Request</masterLabel>
+            <translation><!-- Phone Screen - Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Screen - Scheduled</masterLabel>
+            <translation><!-- Phone Screen - Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questionnaire - Request</masterLabel>
+            <translation><!-- Questionnaire - Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questionnaire - Review</masterLabel>
+            <translation><!-- Questionnaire - Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questionnaire - Sent</masterLabel>
+            <translation><!-- Questionnaire - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questionnaire - Sent 2nd Time</masterLabel>
+            <translation><!-- Questionnaire - Sent 2nd Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review - Hiring Manager</masterLabel>
+            <translation><!-- Review - Hiring Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review - Recruiting</masterLabel>
+            <translation><!-- Review - Recruiting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Candidate US work authorization --></label>
+        <name>Candidate_US_work_authorization__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assign to --></label>
+        <name>Candidate_assign_to__c</name>
+        <relationshipLabel><!-- Candidates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Employer --></label>
+        <name>Current_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Position Duration --></label>
+        <name>Current_Position_Duration__c</name>
+        <picklistValues>
+            <masterLabel>0 - 6 months</masterLabel>
+            <translation><!-- 0 - 6 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - 2 years</masterLabel>
+            <translation><!-- 1 - 2 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - 4 years</masterLabel>
+            <translation><!-- 3 - 4 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7-12 months</masterLabel>
+            <translation><!-- 7-12 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>more than 5 years</masterLabel>
+            <translation><!-- more than 5 years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Back Burner</masterLabel>
+            <translation><!-- Back Burner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candidate Withdrew</masterLabel>
+            <translation><!-- Candidate Withdrew --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consider for Future Role</masterLabel>
+            <translation><!-- Consider for Future Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hired</masterLabel>
+            <translation><!-- Hired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Education --></label>
+        <name>Education__c</name>
+        <picklistValues>
+            <masterLabel>2 year college</masterLabel>
+            <translation><!-- 2 year college --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 year college</masterLabel>
+            <translation><!-- 4 year college --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degree in Progress - BS</masterLabel>
+            <translation><!-- Degree in Progress - BS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degree in Progress - MS</masterLabel>
+            <translation><!-- Degree in Progress - MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctorate</masterLabel>
+            <translation><!-- Doctorate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High School</masterLabel>
+            <translation><!-- High School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masters</masterLabel>
+            <translation><!-- Masters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional (MD, JD, CPA)</masterLabel>
+            <translation><!-- Professional (MD, JD, CPA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Training</masterLabel>
+            <translation><!-- Technical Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interviewer --></label>
+        <name>Interviewer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Codes --></label>
+        <name>Job_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Location --></label>
+        <name>Job_Location__c</name>
+        <picklistValues>
+            <masterLabel>Branch Office CA</masterLabel>
+            <translation><!-- Branch Office CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Branch Office WA</masterLabel>
+            <translation><!-- Branch Office WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Office</masterLabel>
+            <translation><!-- Main Office --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <picklistValues>
+            <masterLabel>Assistant</masterLabel>
+            <translation><!-- Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operator</masterLabel>
+            <translation><!-- Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice President</masterLabel>
+            <translation><!-- Vice President --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred_Phone --></label>
+        <name>Preferred_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previously Interviewed --></label>
+        <name>Previously_Interviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Race_Ethnic Origin --></label>
+        <name>Race_Ethnic_Origin__c</name>
+        <picklistValues>
+            <masterLabel>African American</masterLabel>
+            <translation><!-- African American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Indian or Alaskan Native</masterLabel>
+            <translation><!-- American Indian or Alaskan Native --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asian</masterLabel>
+            <translation><!-- Asian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caucasian</masterLabel>
+            <translation><!-- Caucasian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hispanic</masterLabel>
+            <translation><!-- Hispanic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I do not wish to complete questionnaire</masterLabel>
+            <translation><!-- I do not wish to complete questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native Hawaiian or Other Pacific Islander</masterLabel>
+            <translation><!-- Native Hawaiian or Other Pacific Islander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Declining Offer --></label>
+        <name>Reason_for_Declining_Offer__c</name>
+        <picklistValues>
+            <masterLabel>Compensation too low</masterLabel>
+            <translation><!-- Compensation too low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not interested in the position</masterLabel>
+            <translation><!-- Not interested in the position --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Took another job</masterLabel>
+            <translation><!-- Took another job --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recruiter Notes --></label>
+        <name>Recruiter_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Date --></label>
+        <name>Referral_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring Employee Relationship --></label>
+        <name>Referring_Employee_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Business contact</masterLabel>
+            <translation><!-- Business contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former co-worker</masterLabel>
+            <translation><!-- Former co-worker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend</masterLabel>
+            <translation><!-- Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relative</masterLabel>
+            <translation><!-- Relative --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referring Employee --></label>
+        <name>Referring_Employee__c</name>
+        <relationshipLabel><!-- Candidates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resume Rcvd Date --></label>
+        <name>Resume_Rcvd_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resume --></label>
+        <name>Resume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active_Declined_Status --></label>
+        <name>SFDC_Active_Declined_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Candidate Address --></label>
+        <name>SFDC_Candidate_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate_Alt_Email --></label>
+        <name>SFDC_Candidate_Alt_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate_Birthdate --></label>
+        <name>SFDC_Candidate_Birthdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate Email --></label>
+        <name>SFDC_Candidate_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate Name --></label>
+        <name>SFDC_Candidate_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>SFDC_Department__c</name>
+        <relationshipLabel><!-- Candidates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Candidate Layout</layout>
+        <sections>
+            <label><!-- Candidate Information --></label>
+            <section>Candidate Information</section>
+        </sections>
+        <sections>
+            <label><!-- Candidate Status --></label>
+            <section>Candidate Status</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Job Information --></label>
+            <section>Job Information</section>
+        </sections>
+        <sections>
+            <label><!-- Referring Employee --></label>
+            <section>Referring Employee</section>
+        </sections>
+        <sections>
+            <label><!-- Resume --></label>
+            <section>Resume</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

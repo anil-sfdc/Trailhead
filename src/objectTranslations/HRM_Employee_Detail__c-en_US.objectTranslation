@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employee Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employee Detail</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adhar Cad No --></label>
+        <name>Adhar_Cad_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Id --></label>
+        <name>Employee_Id__c</name>
+        <relationshipLabel><!-- Employee Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PAN Card Number --></label>
+        <name>PAN_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address1 --></label>
+        <name>Pa_Address1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address2 --></label>
+        <name>Pa_Address2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>Pa_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pin Code --></label>
+        <name>Pa_Pin_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>Pa_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Voter ID NO --></label>
+        <name>Voter_Id_No__c</name>
+    </fields>
+    <layouts>
+        <layout>Employee Detail Layout</layout>
+        <sections>
+            <label><!-- Contract Address --></label>
+            <section>Contract Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Present Address --></label>
+            <section>Present Address</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Rec name start with EMP --></errorMessage>
+        <name>Emp_record</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At List One Govt Id Prof Require --></errorMessage>
+        <name>Govt</name>
+    </validationRules>
+</CustomObjectTranslation>

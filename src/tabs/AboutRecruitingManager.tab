@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Information about the application and additional setup instructions for the administrator.</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>true</hasSidebar>
+    <label>About Recruiting Manager</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom18: Form</motif>
+    <scontrol>AboutRecruitingManager</scontrol>
+</CustomTab>

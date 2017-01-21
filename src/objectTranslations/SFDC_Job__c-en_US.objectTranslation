@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jobs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Hiring Manager --></label>
+        <name>Hiring_Manager__c</name>
+        <relationshipLabel><!-- Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Job Comments --></label>
+        <name>Job_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Description --></label>
+        <name>Job_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Filled --></label>
+        <name>Job_Filled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Hire Date --></label>
+        <name>Job_Hire_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Name --></label>
+        <name>Job_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Number --></label>
+        <name>Job_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Requirements --></label>
+        <name>Job_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>Job_Status__c</name>
+        <picklistValues>
+            <masterLabel>01-Open</masterLabel>
+            <translation><!-- 01-Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02-Sourcing</masterLabel>
+            <translation><!-- 02-Sourcing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03-Interviewing</masterLabel>
+            <translation><!-- 03-Interviewing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04-Offer Negotiation</masterLabel>
+            <translation><!-- 04-Offer Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05-Routing Offer</masterLabel>
+            <translation><!-- 05-Routing Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06-Offer Sent</masterLabel>
+            <translation><!-- 06-Offer Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07-Offer Accepted</masterLabel>
+            <translation><!-- 07-Offer Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08-Filled</masterLabel>
+            <translation><!-- 08-Filled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09-On Hold</masterLabel>
+            <translation><!-- 09-On Hold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>Job_Type__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement</masterLabel>
+            <translation><!-- Replacement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Officially Open Date --></label>
+        <name>Officially_Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>SFDC_Department__c</name>
+        <relationshipLabel><!-- Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Hire Date --></label>
+        <name>Target_Hire_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Job Layout</layout>
+        <sections>
+            <label><!-- Candidate --></label>
+            <section>Candidate</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Job Dates --></label>
+            <section>Job Dates</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

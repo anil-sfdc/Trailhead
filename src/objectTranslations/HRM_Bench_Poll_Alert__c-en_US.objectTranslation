@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HRM Bench Poll Alert</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HRM Bench Poll Alert</value>
+    </caseValues>
+    <fields>
+        <label><!-- Emplyee Id --></label>
+        <name>Emplyee_Id__c</name>
+        <relationshipLabel><!-- HRM Bench Poll Alert --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

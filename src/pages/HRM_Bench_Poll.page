@@ -1,0 +1,34 @@
+<apex:page Controller="HRM_Bench_Poll">
+<apex:form >
+<apex:pageBlock >
+<c:HRM_Coller_Cmp textValue="This Text is blue" textColor="blue" />
+	<apex:pageBlockTable value="{!HRM_Bench_Pool_Obj}" var="bp">
+
+<apex:column headerValue="Employee Name">
+		<apex:inputField value="{!bp.Employe_Name__c}"/>
+		</apex:column>
+
+		<apex:column headerValue="Employee Id">
+		<apex:inputField value="{!bp.Employe_Id__c}"/>
+		</apex:column>
+
+		<apex:column headerValue="Employee Maneger">
+		<apex:inputField value="{!bp.Manager_Name__c}"/>
+		</apex:column>
+		
+		<apex:column headerValue="Employee Grade">
+		<apex:inputField value="{!bp.Grade__c}"/>
+		</apex:column>
+
+    </apex:pageBlockTable>
+
+
+    <apex:pageBlockButtons >
+
+          <apex:commandButton value="Save Bench Resource" action="{!SaveBenchPool}"/>
+     </apex:pageBlockButtons>
+   
+
+</apex:pageBlock>
+</apex:form>
+</apex:page>

@@ -1,0 +1,14 @@
+<apex:page standardController="Account" recordSetVar="accounts">
+
+<apex:repeat value="{!Account}" var="a">
+  
+    <li class="sideBarListLink">
+            
+                        <apex:outputlink value="https://ap1.salesforce.com//{!account.Name}/" target="_blank">
+                        </apex:outputlink>
+            
+        </li>
+
+    </apex:repeat>
+
+  </apex:page>

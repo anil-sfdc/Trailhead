@@ -1,0 +1,14 @@
+{!Today}
+
+Dear{!HRM_Employee__c.Employee_Name__c},
+
+Thank you for your interest in {!Organization.Name}. 
+
+
+Today onward you are in bench touch with HR and Manager for next  assignemrnt
+
+Sincerely,
+
+{!User.FullName}
+{!Organization.Name}
+{!User.Email}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Project</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assingment End Date --></label>
+        <name>Assingment_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assingment Start Date --></label>
+        <name>Assingment_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employe Id --></label>
+        <name>Employe_Id__c</name>
+        <relationshipLabel><!-- Project R --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Code --></label>
+        <name>Project_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Manager Name --></label>
+        <name>Project_Manager_Name__c</name>
+        <relationshipLabel><!-- Project_manager_R --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

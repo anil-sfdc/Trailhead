@@ -1,0 +1,14 @@
+<apex:page controller="apexTest">
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1><br/>
+This is your new Page <br/>
+<!-- End Default Content REMOVE THIS -->
+{!hellou}<br/>
+ Account Name : {!a.Name}<br/>
+Account Industry: {!a.Industry}<br/>
+ Contact FirstName: {!cobj.FirstName}<br/>
+Contact LastName: {!cobj.LastName}<br/>
+Contact Eamail: {!cobj.Email}<br/>
+Contact Eamail: {!cobj.Email}<br/>
+ S no :{testcobj.s_No__c}<br/>
+</apex:page>

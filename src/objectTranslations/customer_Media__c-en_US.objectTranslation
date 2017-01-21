@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>customer Media</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>customer Media</value>
+    </caseValues>
+    <fields>
+        <label><!-- CMR --></label>
+        <name>CMR__c</name>
+        <relationshipLabel><!-- customer Media --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer MediaR --></label>
+        <name>Customer_MediaR__c</name>
+        <relationshipLabel><!-- CustomerMediaR --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

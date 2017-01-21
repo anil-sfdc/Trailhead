@@ -1,0 +1,31 @@
+<apex:page Controller="HRM_Bench_Poll_Dispaly">
+
+<apex:form >
+
+
+<apex:pageBlock >
+
+	<apex:pageBlockTable value="{!listBenchPoll}" var="lbp">
+<br><apex:inputField value="{!lbp.Grade__c}"/> </br>
+		<apex:column headerValue="Employee Name:"> {!lbp.Employe_Name__c}
+		</apex:column>
+
+		<apex:column headerValue="Employee Id:"> {!lbp.Employe_Id__c}
+		</apex:column>
+
+		<apex:column headerValue="Employee Maneger:"> {!lbp.Manager_Name__c}
+		</apex:column>
+
+    </apex:pageBlockTable>
+
+
+    <apex:pageBlockButtons >
+
+          <apex:commandButton value="View Bench Resource" action="{!ViewBenchPool}"/>
+     </apex:pageBlockButtons>
+   
+
+</apex:pageBlock>
+</apex:form>
+
+</apex:page>
